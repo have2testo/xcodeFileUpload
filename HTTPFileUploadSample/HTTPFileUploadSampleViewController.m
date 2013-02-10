@@ -61,7 +61,7 @@
   httpFileUpload.delegate = self;
   [httpFileUpload setPostString:self.codeTextField.text withPostName:@"name"];
   [httpFileUpload setPostImage:_imageView.image withPostName:@"photo" fileName:@"Icon.png"];
-  [httpFileUpload postWithUri:@"http://blazing-fog-4408.herokuapp.com/users/photo.json"];
+  [httpFileUpload postWithUri:@"http://calm-ravine-4066.herokuapp.com/users/photo.json"];
   [httpFileUpload release], httpFileUpload = nil;
 }
 
